@@ -1,0 +1,9 @@
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\bin\Debug\netstandard2.0\Practice.Commom.deps.json
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\bin\Debug\netstandard2.0\Practice.Commom.dll
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\obj\Debug\netstandard2.0\Practice.Commom.AssemblyInfoInputs.cache
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\obj\Debug\netstandard2.0\Practice.Commom.AssemblyInfo.cs
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\bin\Debug\netstandard2.0\Practice.Commom.pdb
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\obj\Debug\netstandard2.0\Practice.Commom.csprojAssemblyReference.cache
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\obj\Debug\netstandard2.0\Practice.Commom.csproj.CoreCompileInputs.cache
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\obj\Debug\netstandard2.0\Practice.Commom.dll
+C:\Users\ANDERSON\source\repos\PracticeApp\Practice.Commom\obj\Debug\netstandard2.0\Practice.Commom.pdb

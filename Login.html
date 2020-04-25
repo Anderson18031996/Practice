@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style type="text/css">
+	input {
+	   border-radius: 5px;
+	   color: black;
+	 }
+	 
+	 .ingresar {
+	   background-color: #1BA4C9;
+	   color: black;
+	   background-color: #1BA4C9;
+	 }
+	</style>
+	<script type="text/javascript" src="C:\Users\globalbit\Desktop\Javascript\GCOT\Js\Funciones.js"></script>
+	<script type="text/javascript">
+	/*function Funcion()
+	{
+	debugger;
+	   if(Name.value == 'anderson' && contraseña.value == 1234)
+	    {
+		  alert("Ingreso correctamente la información");
+		  var txt;
+		  if(confirm("Deseas continuar?")){
+		     window_open();
+		  } else {
+				txt = alert("Has cancelado el proceso, vuelve a diligenciar la informacion para continuar");
+				document.getElementById('Name').value = "";
+				document.getElementById('contraseña').value = "";
+		  }
+		  //location.href = "C:\\Users\\globalbit\\Desktop\\Javascript\\GCOT\\MenuPrincipal.html";
+	     }
+	 else
+	   {
+	    alert("Contraseña o usuario incorrecto");
+		document.getElementById('Name').value = "";
+		document.getElementById('contraseña').value = "";
+	   }
+	};*/
+	function viewContraseña() {
+							element = document.getElementById("contraseña");
+							check = document.getElementById("ver");
+							if (check.checked) {
+								element.type = 'text';
+							}
+							else {
+								element.type = 'password';
+							}
+						}
+	
+	 function window_open(){
+      var miVentana = window.open( "C:\\Users\\globalbit\\Desktop\\Javascript\\GCOT\\RegisterEmpresa.html", "Registrar_Empresa", "width=1000,height=1000, top=85,left=50")
+	  
+    }
+	</script>
+	</head>
+	</body>
+	<center>
+	<img src="C:\Users\globalbit\Desktop\Anderson Mendoza\Javascript\GCOT\Images\Themes\logo.png" />
+	 <table>
+	      <tr>
+	        <td><img src="C:\Users\globalbit\Desktop\Anderson Mendoza\Javascript\GCOT\Images\Themes\login.png"/></td><td><input type="text"  id="Name" name="login" size="10" maxlength="10" placeholder="Usuario"></input></td>
+	 	  </tr>
+		    <tr>
+            <td><img src="C:\Users\globalbit\Desktop\Anderson Mendoza\Javascript\GCOT\Images\Themes\Contraseña.png"/></td><td><input type="password" id="contrasena" name="contrasena" size="10" maxlength="4" placeholder="contraseña"></input></td>
+	 	  </tr>
+		  <tr>
+	  <td> <input id="ver" type="checkbox" onchange="viewContraseña()">Ver contraseña</input>
+	 <th>
+	 <input type="submit" id="Boton" value="Ingresar" class="ingresar" onclick="Funcion()"></input></td>
+	 </th>
+	      </tr>
+		  </table>
+	 </center>
+	</body>
+	</html>

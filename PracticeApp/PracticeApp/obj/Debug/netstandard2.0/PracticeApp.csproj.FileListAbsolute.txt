@@ -1,0 +1,15 @@
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\bin\Debug\netstandard2.0\PracticeApp.deps.json
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\bin\Debug\netstandard2.0\PracticeApp.dll
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\bin\Debug\netstandard2.0\PracticeApp.pdb
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\PracticeApp.csprojAssemblyReference.cache
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\PracticeApp.csproj.CoreCompileInputs.cache
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\PracticeApp.AssemblyInfoInputs.cache
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\PracticeApp.AssemblyInfo.cs
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\PracticeApp.dll
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\PracticeApp.pdb
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\bin\Debug\netstandard2.0\Practice.Commom.dll
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\bin\Debug\netstandard2.0\Practice.Commom.pdb
+C:\Users\ANDERSON\source\repos\PracticeApp\PracticeApp\PracticeApp\obj\Debug\netstandard2.0\PracticeApp.csproj.CopyComplete

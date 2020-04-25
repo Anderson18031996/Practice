@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticeApp.Views.MainPage"
+             Title="{Binding Title}">
+
+    <ScrollView>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".5*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Document:" Grid.Row="0" Grid.Column="0"/>
+                <Entry x:Name="Document" Grid.Row="0" Grid.Column="1"></Entry>
+                <Label Text="Firstname:" Grid.Row="1" Grid.Column="0" />
+                <Entry x:Name="Firstname" Grid.Row="1" Grid.Column="1"></Entry>
+                <Label Text="Lastname:" Grid.Row="2" Grid.Column="0"/>
+                <Entry x:Name="Lastname" Grid.Row="2" Grid.Column="1"></Entry>
+                <Label Text="Email:" Grid.Row="3" Grid.Column="0"/>
+                <Entry x:Name="Email" Grid.Row="3" Grid.Column="1"></Entry>
+                <Label Text="Telephone:" Grid.Row="4" Grid.Column="0"/>
+                <Entry x:Name="Telephone" Grid.Row="4" Grid.Column="1"></Entry>
+                <Label Text="Group:" Grid.Row="5" Grid.Column="0"/>
+                <Picker x:Name="ListGroup" Title="Select a Group" ItemsSource="{Binding GroupList}" Grid.Row="5" Grid.Column="1"/>
+            </Grid>
+            <Button x:Name="GetProblem" 
+                    HorizontalOptions="Center" 
+                    Text="GetProblem"
+                    FontSize="Large"
+                    Clicked="GetProblem_Clicked"
+                    BackgroundColor="Blue"></Button>
+            <Label Text="Problem:" />
+            <Label x:Name="Respuesta" />
+            <Entry x:Name="Solution"></Entry>
+            <Button x:Name="SendProblem" 
+                    HorizontalOptions="Center" 
+                    Text="SendProblem"
+                    FontSize="Large"
+                    Clicked="Send_Clicked"
+                    BackgroundColor="Red"></Button>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
